@@ -13,7 +13,9 @@
 export default {
   name: "App",
   data: () => ({
-    //
   }),
+  created() {
+    this.$store.dispatch('getTemplatesFromDB')
+  },
 };
 </script>

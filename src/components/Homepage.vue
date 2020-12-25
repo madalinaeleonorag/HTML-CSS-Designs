@@ -53,13 +53,17 @@ export default {
   data: () => ({
     selectedAuthors: [],
   }),
+  computed: {
+    templatesData() {
+      return this.$store.getters.templatesData;
+    },
+  },
   methods: {
     isSelected(name) {
       return this.selectedAuthors.includes(name);
     },
     toggleSelected(name) {
       if (this.selectedAuthors.includes(name)) {
-        console.log(this.selectedAuthors.indexOf(name));
         this.selectedAuthors.splice(this.selectedAuthors.indexOf(name), 1);
       } else {
         this.selectedAuthors.push(name);
