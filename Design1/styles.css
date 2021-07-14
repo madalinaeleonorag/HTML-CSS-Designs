@@ -73,6 +73,8 @@ margin: 0 5vw;
     background-color: #ede6e0;
     padding: 1vh 1vw;
     margin-top: 1vh;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .form-wrapper
