@@ -1,0 +1,93 @@
+body {
+  color: #2c2b2b;
+  margin: 0;
+  font-family: system-ui;
+}
+
+.photos-carousel {
+ display: flex;
+ flex-flow: row;
+}
+
+.photos-carousel img {
+    height: 20vh;
+    object-fit: cover;
+    flex: 1;
+}
+
+.title {
+    text-align-last: center;
+    margin: 5vh 0;
+}
+
+.cover-image {
+background-image: url('cover.png');
+height: 60vh;
+background-size: cover;
+background-position: center;
+margin: 0 5vw;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-flow: row;
+    margin: 2vh 5vw;
+}
+
+.form-wrapper .form-details {
+  flex: 1 1 40%;
+  margin: 0.5vh 5vw;
+  text-align: center;
+}
+
+.form-wrapper .form-details .form-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 0 3vh 0;
+}
+
+.form-wrapper .form-details .form-description {
+  opacity: 0.7;
+}
+
+.form-wrapper .form-fields {
+  flex: 1 1 60%;
+}
+
+.form-wrapper .form-fields .form-fields-row {
+  display: flex;
+  flex-flow: row;
+}
+
+.form-wrapper .form-fields .form-fields-row .form-fields-col {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 1 50%;
+  margin: 0.5vh 0.5vw;
+  flex-flow: column;
+}
+
+.form-wrapper .form-fields .form-fields-row .form-fields-col button {
+    width: 30%;
+    align-self: flex-end;
+    background-color: #ede6e0;
+    padding: 1vh 1vw;
+    margin-top: 1vh;
+}
+
+.form-wrapper
+  .form-fields
+  .form-fields-row
+  .form-fields-col
+  .form-fields-title {
+  text-transform: uppercase;
+  padding-bottom: 0.5vh;
+  font-weight: bold;
+}
+
+.form-wrapper .form-fields .form-fields-row .form-fields-col input,
+textarea {
+  background-color: #ede6e0;
+  border: none;
+  padding: 1vh 1vw;
+}
