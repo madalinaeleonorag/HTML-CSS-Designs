@@ -5,5 +5,5 @@ This is a place where will be only HTML + CSS templates, for learning purposes.
 ## Template designs
 
 ## Form designs
-![''](Design 1/screenshot.png)
+![''](./Design1/screenshot.png)
 ## Registration/Login designs
