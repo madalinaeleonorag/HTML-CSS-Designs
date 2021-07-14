@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  background-color: #454e57;
+  color: white;
+  font-family: -webkit-pictograph;
+  padding: 2vh 10vw;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 2vh 0;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #8b929a;
+}
+
+.choice {
+  display: flex;
+  margin: 5vh 0;
+  flex-flow: row;
+}
+
+.choice .choice-fulltime {
+  background-color: #00b2f0;
+  padding: 3vh 5vw;
+}
+
+.choice .choice-internship {
+  padding: 3vh 5vw;
+  border: 2px solid #8b929a;
+}
+
+.choice .choice-internship .choice-description {
+  color: #8b929a;
+}
+
+.choice .choice-fulltime .choice-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 0 1vh 0;
+}
+
+.choice .choice-internship .choice-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 0 1vh 0;
+}
+
+.choice .choice-or {
+  font-weight: bold;
+  padding: 0 2vw;
+  align-self: center;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 2vh;
+  margin-bottom: 5vh;
+  border-bottom: 2px solid #00b2f0;
+}
+
+input[type="text"],
+textarea {
+  border-bottom: 1px solid #8b929a !important;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  font-size: 1rem;
+  width: -webkit-fill-available;
+  padding-bottom: 1vh;
+  margin-bottom: 4vh;
+}
+
+.section-text {
+  color: #8b929a;
+  width: -webkit-fill-available;
+  padding-bottom: 1vh;
+  margin-bottom: 1vh;
+}
+
+.disciplines {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.selected-discipline {
+  color: white !important;
+  border: none !important;
+  background-color: #00b2f0;
+  border: 2px solid #00b2f0;
+}
+
+.discipline {
+  flex: 0 1 18%;
+  color: #8b929a;
+  text-align: -webkit-center;
+  border: 2px solid #8b929a;
+  padding: 2vh 2vw;
+}
+
+.experience-and-location {
+  display: flex;
+  flex-flow: row;
+  margin: 3vh 0;
+}
+
+.experience-and-location .experience {
+  flex: 1 1 50%;
+}
+
+.experience-and-location .location {
+  flex: 1 1 50%;
+}
+
+.checkboxes-wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+}
+
+.checkbox {
+  border: 1px solid #8b929a;
+  height: 20px;
+  margin: 5px 10px 5px 5px;
+  width: 20px;
+}
+
+textarea {
+  margin-top: 4vh;
+  color: #747272;
+  font-size: 1rem;
+  font-family: unset;
+}
+
+.portfolio {
+  margin-top: 4vh;
+}
+
+.submit {
+  color: white !important;
+  border: none !important;
+  background-color: #00b2f0;
+  padding: 2vh 2vw;
+  width: 14vw;
+  margin-bottom: 5vh;
+  text-align: -webkit-center;
+}
