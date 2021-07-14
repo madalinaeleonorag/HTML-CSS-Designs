@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  color: #0e0d0b;
+}
+
+/* .cover {
+} */
+
+.cover-background {
+  display: flex;
+  flex-flow: row;
+  height: 60vh;
+}
+
+.cover-background .left-side {
+  background-color: white;
+  flex: 1 1 50%;
+}
+
+.cover-background .right-side {
+  background-color: #f2e8e6;
+  flex: 1 1 50%;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  padding: 3vh 3vw;
+  flex-flow: row;
+  align-items: center;
+  top: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+}
+
+.navbar .left-side {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.navbar .right-side {
+  display: flex;
+  flex-flow: row;
+}
+
+.navbar .right-side .link {
+  padding: 0 1vw;
+}
+
+.cover-content {
+  display: flex;
+  flex-flow: row;
+  height: 60vh;
+  position: absolute;
+  width: 80vw;
+  top: 20vh;
+}
+
+.cover-content .left-side {
+  background-color: white;
+  flex: 1 1 50%;
+}
+
+.cover-content .left-side .lef-side-content {
+  flex: 1 1 50%;
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  height: -webkit-fill-available;
+  left: 15vw;
+  font-size: 1.5rem;
+  place-content: center;
+  font-weight: bold;
+  align-items: center;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.cover-content .left-side .lef-side-content img {
+  height: 19vh;
+  z-index: 3;
+  position: absolute;
+  bottom: 27vh;
+  right: 2vw;
+}
+
+.cover-content .right-side {
+  background-image: url(picture1.jpg);
+  flex: 1 1 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.about {
+  background-color: #f2e8e6;
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  height: -webkit-fill-available;
+  margin: 35vh 2vw 10vh 2vw;
+}
+
+.about .about-png {
+  display: flex;
+  margin: 0 2vw;
+  flex-flow: row;
+  padding-top: 5vh;
+  position: absolute;
+  justify-content: center;
+}
+
+.about .col1 {
+  background-image: url(picture2.jpg);
+  flex: 0 1 30%;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  border: 15px solid white;
+}
+
+.about .col2 {
+  display: flex;
+  flex: 0 1 30%;
+  padding: 7vh 4vw;
+  background: white;
+  height: fit-content;
+  margin-left: 2vw;
+  flex-flow: column;
+}
+
+.about .col2 .title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about .col2 .content {
+  opacity: 0.7;
+  padding: 3vh 0;
+}
+
+.about .col2 .button {
+  text-transform: uppercase;
+  color: white;
+  width: fit-content;
+  padding: 2vh 2vw;
+  background-color: #020202;
+}
