@@ -96,19 +96,24 @@ body {
 .about {
   background-color: #f2e8e6;
   display: flex;
-  width: 100%;
+  width: auto;
   flex-flow: row;
   height: -webkit-fill-available;
-  margin: 35vh 2vw 10vh 2vw;
+  margin: 35vh 0 3vh 0;
 }
 
 .about .about-png {
   display: flex;
   margin: 0 2vw;
   flex-flow: row;
-  padding-top: 5vh;
+  padding: 15vh 0;
+  margin-top: -5vh;
   position: absolute;
+  background-size: contain;
+  background-position: center;
   justify-content: center;
+  background-image: url(icon.png);
+  background-repeat: no-repeat;
 }
 
 .about .col1 {
@@ -138,10 +143,51 @@ body {
 
 .about .col2 .content {
   opacity: 0.7;
+  line-height: 1.5rem;
   padding: 3vh 0;
 }
 
 .about .col2 .button {
+  text-transform: uppercase;
+  color: white;
+  width: fit-content;
+  padding: 2vh 2vw;
+  background-color: #020202;
+}
+
+.offer {
+  background-image: url(picture1.jpg);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 80vh;
+  background-position: top;
+  margin-top: 35vh;
+  background-size: cover;
+  padding: 0 23vw;
+  text-align: center;
+  place-content: center;
+}
+
+.offer .content {
+  display: flex;
+  padding: 7vh 4vw;
+  flex-flow: column;
+  align-items: center;
+  background-color: white;
+}
+
+.offer .content .title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.offer .content .text {
+  line-height: 1.5rem;
+  padding: 3vh 0;
+}
+
+.offer .content .button {
   text-transform: uppercase;
   color: white;
   width: fit-content;
