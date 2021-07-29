@@ -28,13 +28,6 @@ body {
     border-radius: 20px 0 0 20px;
 }
 
-.wrapper .col-1 .title {
-    font-weight: bold;
-    color: #001d3b;
-    padding-top: 10vh;
-    font-size: 1.8rem;
-}
-
 .wrapper .col-2 {
     flex: 1 1 60%;
     background-color: white;
