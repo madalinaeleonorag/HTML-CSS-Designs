@@ -1,6 +1,6 @@
 # HTML and CSS Designs
 
-This is a place where will be only HTML + CSS templates, for learning purposes.
+This is a place where will be only ![](https://img.shields.io/badge/Code-HTML-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=E34F26) and ![](https://img.shields.io/badge/Code-CSS-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=1572B6) templates, for learning purposes.
 
 ## Template designs
 * Design 1 - [@madalinaeleonorag](https://github.com/madalinaeleonorag)
