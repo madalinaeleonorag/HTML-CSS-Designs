@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background: linear-gradient(90deg, #30cca4, #129fa9);
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-radius: 20px;
+  flex-flow: row;
+  box-shadow: 0px 0px 5px 0px #322a5b;
+  width: 60vw;
+  height: 80vh;
+}
+
+.col-1 {
+  background-image: url(leafs.jpg);
+  flex: 0 0 45%;
+  border-radius: 20px 0 0 20px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.col-2 {
+  flex: 0 0 55%;
+  background-color: #fcfcfc;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0 5vw;
+}
+
+.up-content {
+  text-align-last: center;
+}
+
+.title {
+  font-weight: bold;
+  color: #1b8885;
+  font-size: 1.8rem;
+  font-family: system-ui;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  color: #506d7f;
+  font-family: system-ui;
+}
+
+.white {
+  color: white;
+}
+
+.actions {
+  display: flex;
+  flex-flow: row;
+  font-size: 0.8rem;
+  color: white;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.actions .cancel {
+  background-color: #322b55;
+  text-transform: uppercase;
+  font-family: system-ui;
+  padding: 0.7vh 1vw;
+  border-radius: 3px;
+  
+  margin-right: 0.5vw;
+}
+
+.actions .confirm {
+  background-color: #10a19f;
+  text-transform: uppercase;
+  font-family: system-ui;
+  padding: 0.7vh 1vw;
+  border-radius: 3px;
+}
+
+td button {
+    border-radius: 50%;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin: 0.5vh 0;
+    padding: 5px 8px;   
+}
+
+.male {
+background-color: #149284;
+}
+
+.female {
+    background-color: #d3d2d8;
+}
+
+input {
+    background-color: #d3d2d8;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    width: -webkit-fill-available;
+    padding: 10px;
+    margin: 0.5vh 0;
+}
+
+table {
+    margin: 5vh 0;
+    width: 100%;
+}
+
+td {
+    font-weight: bold;
+    color: #716f7b;
+    font-family: sans-serif;
+}
+
+.wrapper .col-2 input::placeholder{
+    color: #d3d2d8;
+  }
